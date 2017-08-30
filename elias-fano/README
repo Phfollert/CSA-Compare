@@ -1,0 +1,7 @@
+
+=========================
+-if build_option="free_text" the index will 
+free the text immediately after finish used it.
+
+-if build_option="samplerate=<number>" then SA[i] 
+is stored explicitly if SA[i]%(number*8)=0 . The default number is 32.
